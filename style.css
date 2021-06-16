@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	border: solid red 5px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: cyan;
+	color: red;
+
+}
+.headinglinks {
+	display: flex;
+	flex-direction: column;
+	justify-content: first baseline;
+	font-size: 30;
+}
+p {
+	margin: 10px;
+	color: black;
+	background-color: purple;
+	font-size: 30;
+
+
+
+}
+body{
+	background-image: url('bg.jpg');
+}
+	
+
+.item: hover p{
+	opacity: 1;
+}
+.item: hover img{
+	opacity:0.33;
+}
+
